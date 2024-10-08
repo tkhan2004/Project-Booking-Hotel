@@ -1,0 +1,41 @@
+/**
+ * /* Contact
+ *
+ * @format
+ */
+
+.menu-contact {
+  height: 50px;
+  background-color: #f5f5f5;
+  padding-left: 14px;
+  margin-bottom: 50px;
+}
+.menu-contact a {
+  margin: 0;
+  font-size: 14px;
+  padding: 15px 0 15px;
+  border-radius: 0;
+  font-weight: 400;
+  line-height: 50px;
+  text-decoration: none;
+  padding-left: 90px;
+}
+.contact > li {
+  font-size: 1.5rem;
+}
+.menu-1 {
+  display: inline-block;
+  color: #0089ff;
+}
+.contact-main {
+  margin-left: 124px;
+  font-size: 14 px;
+  padding: 15px 0 15px;
+  line-height: 2.5;
+}
+.h3 {
+  color: #06aa2a !important;
+  font-size: 2.8rem;
+}
+
+/* kết thúc contact */

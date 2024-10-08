@@ -1,0 +1,103 @@
+/** @format */
+
+#login .login-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/backbooking.jpg);
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+}
+#login .login-banner .uilogin {
+  width: 64rem;
+  background: #fff;
+  border-radius: 8px;
+  max-width: calc(100vw - 32px);
+  min-height: 60rem;
+  padding: 48px 16px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  top: 6.6rem;
+}
+#login .login-banner .uilogin .login-top img {
+  width: 9rem;
+}
+#login .login-banner .uilogin .login-top h1 {
+  margin-top: 1rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+#login .login-banner .uilogin .login-mid {
+  margin-top: 40px;
+}
+#login .login-banner .uilogin .login-mid input {
+  min-width: 40rem;
+  min-height: 6rem;
+  margin: 30px auto 15px;
+  background-color: rgba(207, 253, 213, 0.151);
+  border: 0.5px solid rgba(166, 248, 177, 0.849);
+  display: block;
+  flex: 1 1;
+  font-size: 1.4rem;
+  outline: none;
+  padding: 12px 20px;
+  font-size: 15px;
+}
+#login .login-banner .uilogin .login-mid .sub-login-mid {
+  width: 58rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+}
+#login .login-banner .uilogin .login-mid .sub-login-mid p {
+  display: inline;
+}
+#login .login-banner .uilogin .login-mid .sub-login-mid a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #06aa2a;
+}
+#login .login-banner .uilogin .login-bot input:hover,
+#login .login-banner .uilogin .login-mid .sub-login-mid a:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+#login .login-banner .uilogin .login-mid input:focus {
+  background-color: rgba(207, 253, 213, 0.959);
+}
+#login .login-banner .uilogin .login-bot input {
+  margin-top: 20px;
+  min-width: 40rem;
+  min-height: 6rem;
+  font-size: 1.8rem;
+  background-image: linear-gradient(
+    to left,
+    rgba(16, 255, 8, 0.658),
+    rgba(0, 151, 0, 0.363)
+  );
+  border: none;
+}
+#login .login-banner .uilogin .another-login .mxh {
+  margin-top: 6rem;
+}
+#login .login-banner .uilogin .another-login .mxh .primary-btn {
+  padding: 2.5rem 2rem 2rem 2rem !important;
+  width: 6rem;
+  height: 6rem;
+  line-height: 2em !important;
+  border-radius: 0.6rem;
+  border-color: transparent;
+  background: #fff !important;
+  margin: 0.5rem;
+}
+#login .login-banner .uilogin .another-login .mxh .primary-btn i {
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: green !important;
+  text-align: center;
+}
+#login .login-banner .uilogin .another-login .mxh .primary-btn i:hover {
+  opacity: 0.5;
+}

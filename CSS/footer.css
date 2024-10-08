@@ -1,0 +1,113 @@
+/** @format */
+
+#footer .footer-top {
+  margin-top: 48rem;
+  background: url(../img/backbooking.jpg) top center / cover no-repeat;
+  height: 89rem;
+  position: relative;
+}
+
+#footer .footer-top .contact-container {
+  padding: 10rem 0;
+  margin: 0 auto;
+  height: 89rem;
+  width: 75%;
+  border-radius: 0.1rem;
+}
+#footer .footer-top .contact-container .contact-top {
+  max-width: 114rem;
+  height: 44.2rem;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 6rem;
+}
+#footer .contact-bot .t-black,
+#footer .contact-top .t-black {
+  letter-spacing: 0.4rem;
+  font-weight: 100;
+}
+#footer .contact-top .t-content {
+  font-size: 2.8rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+#footer .contact-top span {
+  color: green;
+}
+#footer .contact-top .container-email {
+  width: 60rem;
+  height: 8.6rem;
+  margin: 0 auto;
+  position: relative;
+  top: 8rem;
+}
+
+#footer .contact-top .container-email .form-control {
+  width: 100%;
+  height: auto;
+  padding: 2.5rem 2.5rem 2.4rem 2.5rem;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+  background-color: #f6f6f6;
+}
+#footer .container-email #submit {
+  position: absolute;
+  margin: 0;
+  right: 0;
+  top: 0;
+  min-width: 15rem;
+  padding: 2.4rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 0rem 0.6rem 0.6rem 0rem !important;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 0.3rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  overflow: visible;
+}
+#footer .footer-top .contact-container .contact-bot .mxh .primary-btn:hover,
+#footer .container-email #submit:hover {
+  opacity: 0.5;
+  transform: scale(1.01);
+}
+#footer .footer-top .contact-container .contact-bot {
+  width: 100%;
+  text-align: center;
+  margin-top: 10rem;
+}
+#footer .footer-top .contact-container .contact-bot .mxh {
+  margin-top: 3rem;
+}
+#footer .footer-top .contact-container .contact-bot .mxh .primary-btn {
+  padding: 2.5rem 2rem 2rem 2rem !important;
+  width: 6rem;
+  height: 6rem;
+  line-height: 2em !important;
+  border-radius: 0.6rem;
+  border-color: transparent;
+  background: #fff !important;
+  margin: 0.5rem;
+}
+#footer .footer-top .contact-container .contact-bot .mxh .primary-btn i {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: green !important;
+  text-align: center;
+}
+#footer .footer-top .contact-container .footer-end {
+  position: relative;
+  top: 8rem;
+  opacity: 0.9;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin-top: 2rem;
+  color: rgb(128, 128, 128) !important;
+  font-weight: 300;
+}

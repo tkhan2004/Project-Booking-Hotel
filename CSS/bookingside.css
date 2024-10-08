@@ -1,0 +1,105 @@
+/** @format */
+
+#booking {
+  top: 1rem;
+  position: relative;
+  width: 100%;
+}
+#booking .introduct {
+  padding: 8rem 0rem 2rem 0rem;
+  width: 100%;
+}
+#booking .introduct .container {
+  padding: 0rem 1.5rem;
+  max-width: 114rem;
+  margin: 0 auto;
+}
+#booking .introduct .t-black {
+  letter-spacing: 0.2rem;
+  color: black !important;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+#booking .introduct .t-black h5 {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+}
+#booking .introduct .t-content {
+  font-size: 4rem;
+  margin: 5rem 0rem 1rem 0rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+}
+.gold {
+  background: #ad974f !important;
+}
+.line {
+  width: 5rem;
+  height: 0.1rem;
+  display: inline-block;
+  margin: 0 auto;
+}
+#booking .introduct .t-gold {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #06aa2a !important;
+}
+#booking .introduct .container .bot-content {
+  margin: 3rem 0rem 1rem 0rem;
+}
+
+#booking form .inputBox {
+  padding: 0.5rem 0;
+}
+
+#booking .container-booking {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#booking .container-booking img {
+  text-align: center;
+  margin: 0 auto;
+}
+#booking form {
+  height: 55rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+#booking form .inputBox input {
+  width: 50rem;
+  padding: 1rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  font-size: 1.7rem;
+  color: #333;
+  text-transform: none;
+  text-align: center;
+}
+#booking form .inputBox h3 {
+  font-size: 2rem;
+  padding: 1rem 0;
+  color: #666;
+  text-align: center;
+}
+
+#booking .container-booking .btn {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5vw 1.9vw;
+  border: 0.2rem solid green;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  background-color: #06aa2a;
+  color: #fff;
+  border-radius: 0.2rem;
+}
+
+#booking .container-booking .btn:hover {
+  background-color: rgba(102, 252, 88, 0.267) !important;
+  cursor: pointer;
+  color: #333;
+}

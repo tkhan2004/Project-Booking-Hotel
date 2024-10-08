@@ -1,0 +1,171 @@
+/** @format */
+
+/**
+ * /*==================================== CSS PHẦN SLIDER ======================================
+ *
+ * @format
+ */
+#slider .banner-section img {
+  width: 100%;
+  max-height: 100vh;
+}
+#slider .banner-section .text-slider {
+  position: absolute;
+  top: 40%;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+}
+#slider .banner-section .text-slider h2 {
+  font-size: 4.5rem;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 50px green;
+}
+#slider .banner-section .text-slider h4 {
+  margin-bottom: 3rem;
+  color: #fff;
+  font-style: italic;
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-shadow: 0px 0px 20px green;
+}
+#slider .banner-section .text-slider .morebanner-btn {
+  padding: 1.5vw;
+  min-width: 5rem;
+  border: 2px solid #06aa2a;
+  text-align: center;
+  font-weight: 500;
+  margin: 5px 0;
+  display: inline-block;
+  background-color: #06aa2a;
+  border-radius: 5px;
+}
+.text-slider a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.packages .box-container .box .btn:hover,
+#content .box-container .box .content .btn:hover,
+.text-slider .morebanner-btn:hover {
+  background-color: rgba(102, 252, 88, 0.267) !important;
+  cursor: pointer;
+}
+
+#body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.button-container {
+  display: flex;
+  gap: 15px;
+}
+.round-button {
+  display: flex;
+            align-items: center;
+            padding: 10px 20px; /* Khoảng cách bên trong */
+            border: 2px solid white; /* Đường viền */
+            border-radius: 30px; /* Đường viền tròn */
+            background-color: #e7f1ff; /* Màu nền */
+            color: black; /* Màu chữ */
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+}
+.round-button:hover {
+  background-color: #007bff; /* Màu nền khi hover */
+            color: white; /* Màu chữ khi hover */
+}
+.icon-image {
+  margin-right: 10px;
+}
+
+
+
+
+/* Container chứa các địa điểm */
+.destination-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* Định dạng cho mỗi địa điểm */
+.destination-item {
+  text-align: center;
+  width: 110px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Định dạng hình ảnh */
+.destination-image {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+}
+
+/* Thông tin dưới mỗi hình */
+.destination-info {
+  padding: 9px;
+  background-color: #fff;
+}
+
+/* Thêm khoảng cách giữa các phần tử */
+.destination-info p {
+  margin: 4px 0;
+  font-size: 12px;
+}
+
+
+#body1 {
+  background-color: #fff; /* Màu nền trang */
+  color: #000; /* Màu chữ mặc định */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.service {
+  background-color: 	#696969; /* Màu nền khung */
+  color: #fff; /* Màu chữ bên trong khung */
+  border: 2px solid #000; /* Đường viền màu đen */
+  padding: 2px;
+  margin: 10px 0;
+  text-align: center; /* Canh giữa nội dung */
+}
+.price{
+  background-color: #DAA520;
+  padding: 4px;
+  border-radius: 5px;
+  display: inline-block; /* Hiển thị như khối nội tuyến */
+  margin-top: 10px; /* Khoảng cách giữa tiêu đề và giá */
+  font-size: 15PX;
+}
+.image-container {
+  text-align: center; /* Canh giữa hình ảnh */
+  margin: 20px 0; /* Khoảng cách giữa các phần */
+}
+.image-container img {
+  width: 764px; /* Hình ảnh chiếm toàn bộ chiều rộng */
+  height: 404px;
+}
+

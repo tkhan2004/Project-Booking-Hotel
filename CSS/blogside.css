@@ -1,0 +1,125 @@
+/** @format */
+
+#blog {
+  top: 0rem;
+  position: relative;
+  width: 100%;
+}
+#newscontainer .introduct,
+#blog .introduct {
+  padding: 8rem 0rem 2rem 0rem;
+  width: 100%;
+}
+#newscontainer .introduct .container,
+#blog .introduct .container {
+  padding: 0rem 1.5rem;
+  max-width: 114rem;
+  margin: 0 auto;
+}
+#newscontainer .introduct .t-black,
+#blog .introduct .t-black {
+  letter-spacing: 0.5rem;
+  color: black !important;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+#newscontainer .introduct .t-black h5,
+#blog .introduct .t-black h5 {
+  display: block;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+}
+#newscontainer .introduct .t-content,
+#blog .introduct .t-content {
+  font-size: 4rem;
+  margin: 5rem 0rem 1rem 0rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+}
+.gold {
+  background: #ad974f !important;
+}
+.line {
+  width: 5rem;
+  height: 0.1rem;
+  display: inline-block;
+  margin: 0 auto;
+}
+#newscontainer .introduct .t-gold,
+#blog .introduct .t-gold {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #06aa2a !important;
+}
+#newscontainer .introduct .container .bot-content,
+#blog .introduct .container .bot-content {
+  margin: 3rem 0rem 3rem 0rem;
+}
+#newscontainer .container-blog,
+#blog .container-blog {
+  position: relative;
+  height: 43rem;
+  background-color: rgba(236, 236, 236, 0.13);
+  max-width: 114rem;
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#blog .container-blog .btn-more:hover {
+  opacity: 0.5;
+}
+#blog .container-blog .container-news {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 3rem;
+}
+#blog .container-blog .container-news .product-blog {
+  height: 40rem;
+  margin-top: 4.5rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+#blog .container-blog .product-blog .blog-img {
+  width: 100%;
+  height: 22.6rem;
+}
+#blog .product-blog .blog-content h4 {
+  font-size: 2rem;
+  width: 100%;
+  margin: 2rem 0 2rem 0;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000;
+  text-align: left;
+}
+#blog .product-blog .blog-content .blog-detail {
+  text-align: left;
+  margin-bottom: 1rem;
+  letter-spacing: 0.2rem;
+}
+#blog .product-blog .blog-content .blog-detail .info {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #06aa2a;
+}
+#blog .product-blog .blog-content .blog-detail .info2 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.info2 .date i,
+.view i {
+  margin-right: 1rem;
+}
+#blog .product-blog:hover {
+  opacity: 0.5;
+  transform: scale(1.01);
+}
