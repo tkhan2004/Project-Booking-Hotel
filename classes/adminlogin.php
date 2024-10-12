@@ -37,10 +37,11 @@
                     Session::set('userID', $value['user_id']);
                     Session::set('username', $value['username']);
                     Session::set('fullname', $value['full_name']);
+                    Session::set('role_id', $value['role_id']);
                 if ($value['role_id']=='0' ){
                         header('location: admin/admin.php');
                     }else {
-                        header('location: customer/test.php');
+                        header('location: customer/Shop.php');
                     }
                 } 
                 else {

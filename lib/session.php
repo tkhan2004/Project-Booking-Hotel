@@ -46,5 +46,23 @@ class Session {
         session_destroy();
         header("Location:../UIlogin.php");
     }
+    public static function checkAdminRole() {
+        self::init();
+        if(self::get("role_id") !=0){
+            session_destroy();
+            header("Location:admin/admin.php");
+            exit();
+
+        }
+    }
+    public static function checkCustomer(){
+        self::init();
+        if(self::get("role_id")==0){
+            session_destroy();
+            header("Location:customer/Shop.php");
+            exit();
+
+        }
+    }
 }
 ?>;

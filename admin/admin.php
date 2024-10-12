@@ -1,7 +1,8 @@
 <?php
     include '../lib/session.php';
     Session::checkSession(); // ngắn chặn người lạ truy cập thẳng 
-?>
+    Session::checkAdminRole();
+?>  
 <!DOCTYPE html>
 <html lang="vi">
 <head>
